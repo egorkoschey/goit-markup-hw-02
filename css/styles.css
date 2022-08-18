@@ -21,7 +21,6 @@ a{
 }
 .header-link {
     color: var(--header-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -37,7 +36,6 @@ ul {
 .logo {
     color: var(--logo-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -57,7 +55,6 @@ ul {
 }
 .section-text {
     color: var(--header-color-bg);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -68,7 +65,7 @@ ul {
 .section-btn {
     color: var(--header-color-bg);
     background-color: var(--hover-color);
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -98,7 +95,6 @@ ul {
 }
 .features-item-header {
     color: var(--header-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -107,7 +103,6 @@ ul {
 }
 .features-item-text {
     color: var(--text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -115,7 +110,6 @@ ul {
 }
 .activity-header {
     color: var(--header-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -125,7 +119,6 @@ ul {
 .team-header {
     color: var(--header-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -141,7 +134,6 @@ ul {
 .team-member {
     font-size: 16px;
     color: var(--header-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -150,7 +142,6 @@ ul {
 }
 .team-text {
     color: var(--text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -170,7 +161,6 @@ ul {
 }
 .address-link-footer {
     color: var(--text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -182,7 +172,6 @@ ul {
 }
 .footer-link-logo {
     color: var(--header-color-bg);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -193,12 +182,11 @@ ul {
     color: var(--hover-color);
 }
 .item-btn {
-    font-family: 'Roboto';
+    font-family: inherit;
     color: var(--header-color);
     background-color: var(--team-color-bg); 
     align-items: center;
     cursor: pointer;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -214,7 +202,6 @@ ul {
 }
 .portfolio-header {
     color: var(--header-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -222,9 +209,16 @@ ul {
 }
 .portfolio-text{
     color: var(--text-color);
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
+}
+.active-link {
+    color: var(--hover-color);
+}
+.active-btn {
+    background-color: var(--hover-button);
+    color: var(--header-color-bg);
+    border-radius: 4px;
 }
